@@ -24,7 +24,7 @@
     "url": "https://github.com/modeclerck/belgium-eid/issues"
   },
   "dependencies": {
-    "@pokusew/pcsclite": "^0.5.1",
+    "@pokusew/pcsclite": "^0.6.0",
     "pkcs11js": "^1.0.17"
   },
   "devDependencies": {
