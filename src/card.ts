@@ -20,7 +20,7 @@ export default class Card {
 
     private initPkcs11(): void {
         try {
-            Card.pkcs11.load("C:\\Windows\\System32\\beidpkcs11.dll");
+            Card.pkcs11.load("/Library/Belgium Identity Card/Pkcs11/libbeidpkcs11.5.dylib");
             Card.pkcs11.C_Initialize();
         } catch (error) {
             console.error(error);
